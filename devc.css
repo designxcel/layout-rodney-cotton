@@ -1,0 +1,114 @@
+.first-row{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.first{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.second{
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.third-image{
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+
+.bottom-container{
+    display: flex;
+    gap: 10px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* gap: 10px; */
+    /* margin-bottom: 10px; */
+}
+
+.bottom-two{
+    display: flex;
+    gap: 10px;
+    width: 400px;
+    height: 200px;
+    /* gap: calc(200px - 20px); */
+    /* margin-bottom: 10px; */
+}
+
+.side-image{
+    width: 200px;
+    height: 400px;
+    border-radius: 15px;
+}
+
+.first-bottom{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    width: calc((100% - 10px)/2);
+    height: calc((100% - 10px));
+}
+
+.title{
+    text-align: center;
+}
+
+.profile-pic{
+    width: 200px;
+    border-radius: 25px;
+    
+}
+
+.title h3{
+    font-family: gotham;
+    font-size: 40px;
+    color: grey;
+    margin-top: 20px;
+}
+.title h5{
+    font-family: gotham;
+    font-size: 20px;
+    color: lightgray;
+    margin-top: -30px;
+}
+.counting{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+
+}
+.box{
+    background-color: lightgray;
+    /* padding: 50px; */
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+
+
+}
+
+.box p{
+    color: lightslategrey;
+    margin-top: -40px;
+}
+.counting h1{
+    color: grey;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+}
+
+.main-head{
+    margin: 50px 0px;
+}
+.container{
+    width: 600px;
+    margin: 0 auto;
+}
